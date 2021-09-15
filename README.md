@@ -1,3 +1,8 @@
+use this link to view the project:
+https://iamjhay.github.io/LegendFurnitures/#/
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
