@@ -63,7 +63,7 @@ const ListItem = ({ item }) => {
         <div className={classes.footer}>
           <div className={classes.subtitle}>
             <p className="">{serviceTime}</p>
-            <p className="ml-2 text-gray-200 absolute top-[-10px] left-2 p-2 bg-yellow-600 bg-opacity-90">
+            <p className="ml-2 text-gray-200 absolute top-[10px] left-2 p-2 bg-yellow-600 bg-opacity-90">
               Delivery Fee ${deliveryFee}
             </p>
           </div>
