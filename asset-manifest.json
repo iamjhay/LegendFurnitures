@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/LegendFurnitures/static/css/main.6ba380c8.chunk.css",
-    "main.js": "/LegendFurnitures/static/js/main.c97e94f6.chunk.js",
-    "main.js.map": "/LegendFurnitures/static/js/main.c97e94f6.chunk.js.map",
+    "main.js": "/LegendFurnitures/static/js/main.bf2ee4de.chunk.js",
+    "main.js.map": "/LegendFurnitures/static/js/main.bf2ee4de.chunk.js.map",
     "runtime-main.js": "/LegendFurnitures/static/js/runtime-main.312b5858.js",
     "runtime-main.js.map": "/LegendFurnitures/static/js/runtime-main.312b5858.js.map",
-    "static/js/2.2b1df0e5.chunk.js": "/LegendFurnitures/static/js/2.2b1df0e5.chunk.js",
-    "static/js/2.2b1df0e5.chunk.js.map": "/LegendFurnitures/static/js/2.2b1df0e5.chunk.js.map",
+    "static/js/2.b205af0d.chunk.js": "/LegendFurnitures/static/js/2.b205af0d.chunk.js",
+    "static/js/2.b205af0d.chunk.js.map": "/LegendFurnitures/static/js/2.b205af0d.chunk.js.map",
     "index.html": "/LegendFurnitures/index.html",
     "static/css/main.6ba380c8.chunk.css.map": "/LegendFurnitures/static/css/main.6ba380c8.chunk.css.map",
-    "static/js/2.2b1df0e5.chunk.js.LICENSE.txt": "/LegendFurnitures/static/js/2.2b1df0e5.chunk.js.LICENSE.txt"
+    "static/js/2.b205af0d.chunk.js.LICENSE.txt": "/LegendFurnitures/static/js/2.b205af0d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.312b5858.js",
-    "static/js/2.2b1df0e5.chunk.js",
+    "static/js/2.b205af0d.chunk.js",
     "static/css/main.6ba380c8.chunk.css",
-    "static/js/main.c97e94f6.chunk.js"
+    "static/js/main.bf2ee4de.chunk.js"
   ]
 }
