@@ -1,13 +1,60 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .square {
+    aspect-ratio: 2 / 1;
+  }
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+  .btn {
+    @apply mt-4 inline-block py-3 px-3 text-xs dark:text-white text-primary sm:text-sm font-normal sm:font-medium uppercase tracking-normal transition-colors ease-linear focus:outline-none cursor-pointer;
+  }
+
+  .btn-secondary {
+    @apply border dark:border-gray-50 dark:border-opacity-30 hover:text-white border-gray-400 bg-transparent  duration-500 hover:bg-yellow-600 dark:hover:bg-yellow-600 hover:border-none;
+  }
+
+  .btn-primary {
+    @apply bg-yellow-600 hover:bg-white text-white hover:text-primary;
+  }
+
+  .btn:hover > span {
+    @apply hidden;
+  }
+
+  .cta:hover .span {
+    @apply border-yellow-600 transition duration-1000 ease-linear;
+  }
+  .cta:hover p {
+    @apply tracking-widest transition ease-in-out duration-1000;
+  }
+  .img__card {
+    @apply h-24 xs:h-64 bg-blue-500 shadow-sm;
+  }
+  .form-items {
+    @apply sm:flex sm:flex-row items-start sm:items-center p-4 mb-4 w-[100vw] sm:w-full;
+  }
+  .labelfield {
+    @apply sm:text-right text-left sm:pr-4 w-full sm:w-[550px] dark:text-white dark:text-sm text-base font-normal dark:font-semibold;
+  }
+  .textfield {
+    @apply py-4 sm:p-2 w-full border-b border-b-gray-500 bg-transparent outline-none focus:border-b-yellow-500 focus:bg-transparent active:border-b-yellow-500 transition-all dark:text-white text-base font-normal dark:text-sm focus:font-normal placeholder-gray-400 dark:hover:placeholder-gray-200 capitalize;
+  }
+}
+
+.feat-1a:hover ~ .feat-1 {
+  transform: scale(0.95);
+  padding: 0 !important;
+  outline: none !important;
+}
+
+.dark .MuiSvgIcon-fontSizeSmall {
+  color: #fff;
+}
+
+.MuiSvgIcon-fontSizeSmall {
+  color: #000;
 }
