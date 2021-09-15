@@ -1,3 +1,5 @@
+// to compile Postcss
+
 // craco.config.js
 module.exports = {
   style: {

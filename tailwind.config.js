@@ -1,3 +1,4 @@
+// added an extra-small scrrensize feature
 const defaultTheme = require("tailwindcss/defaultTheme");
 
 module.exports = {
