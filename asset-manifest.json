@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LegendFurnitures/static/css/main.6ba380c8.chunk.css",
-    "main.js": "/LegendFurnitures/static/js/main.bf2ee4de.chunk.js",
-    "main.js.map": "/LegendFurnitures/static/js/main.bf2ee4de.chunk.js.map",
+    "main.js": "/LegendFurnitures/static/js/main.bba87e88.chunk.js",
+    "main.js.map": "/LegendFurnitures/static/js/main.bba87e88.chunk.js.map",
     "runtime-main.js": "/LegendFurnitures/static/js/runtime-main.312b5858.js",
     "runtime-main.js.map": "/LegendFurnitures/static/js/runtime-main.312b5858.js.map",
     "static/js/2.b205af0d.chunk.js": "/LegendFurnitures/static/js/2.b205af0d.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.312b5858.js",
     "static/js/2.b205af0d.chunk.js",
     "static/css/main.6ba380c8.chunk.css",
-    "static/js/main.bf2ee4de.chunk.js"
+    "static/js/main.bba87e88.chunk.js"
   ]
 }
